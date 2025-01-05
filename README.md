@@ -10,3 +10,4 @@ ML from scratch implementations in the awesome library, JAX!
 - [ ] **Principal Component Analysis (PCA)**  
 - [ ] **K-Means Clustering**  
 - [ ] **Naive Bayes Classifier**  
+- [ ] **Decision Trees**  
