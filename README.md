@@ -2,7 +2,7 @@
 ML from scratch implementations in the awesome library, JAX!
 
 ### 10 ML Algorithms to Implement in JAX
-- [ ] **Linear Regression**  
+- [x] **Linear Regression**  
 - [x] **Logistic Regression**  
 - [ ] **Softmax Regression** (Multiclass Classification)  
 - [ ] **K-Nearest Neighbors (KNN)**  
