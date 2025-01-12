@@ -7,7 +7,7 @@
     ## What should be done: 
         ## 1. Optimise implementation
         ## 2. Docs
-        ## 3. Implement KDTree and Ball trees 
+        ## 3. Implement K dimensional Tree and Ball trees 
 
 import jax
 import jax.numpy as jnp
