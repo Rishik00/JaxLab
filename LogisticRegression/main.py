@@ -13,7 +13,7 @@ key = jax.random.key(42)
 iris = load_iris()
 X, y = iris.data, iris.target
 
-    # Select only two classes for binary classification (class 0 and class 1)
+# Select only two classes for binary classification (class 0 and class 1)
 X = X[y != 2]
 y = y[y != 2]
 
@@ -23,6 +23,15 @@ X_train = jnp.array(X_train)
 X_test = jnp.array(X_test)
 y_train = jnp.array(y_train)
 y_test = jnp.array(y_test)
+
+#written by nvim
+def hello_world(inp):
+    return "Hello world from nvim"
+
+#written by nvim at temrinal
+def hello_world_from_terminal(inp):
+    return "Hello world from nvim terminal lkol"
+
 
 # Sigmoid function
 def sigmoid(inp):

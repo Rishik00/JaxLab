@@ -59,7 +59,7 @@ def inference(X_train, X_test, y_train, y_test, k=3, distance_metric=euclidean_d
         
         # Predict the label for the test row using KNN
         predicted_label = predict_classification(X_train, test_row, y_train, k, distance_metric)
-        
+   
         # Compare with the true label
         if predicted_label == true_label:
             correct_predictions += 1
